@@ -4,23 +4,30 @@
        <title>To Do List</title>
    </head>
    <body>
-       <div>
+       <div id="header">
        <h1> To Do Application</h1>
+       </div>
+       <div class="input form">
        <form>
-           New to do item: <input type="text" name= "entry"; multiple>
+           New to do item: <input type="text"; name= "entry"; multiple>
            <button type="button">Add</button>
        </form>
-
-       <table>
-               <thead colspan="3"> <th>Things to do </th></thead>
+       </div>
+<hr/>
+       <div>
+           <details> <summary>Info</summary> <p>The below table shows all items in your current to do list. <br/> 
+            Click 'done' to mark an item as complete and click 'delete' to remove the item from your list without completing it.</p>
+           </details>
+       <table class="task table">
+               <thead colspan="2"> <th>Things to do: </th> <th>2</th>  </thead>
            <tr>
                <td> Task 1</td>
-               <td><button type="button">Done</button></td>
+               <td><input type="checkbox"; name="Done">Done</input></td>
                <td><button type="button">Delete</button></td>
            </tr>
            <tr>
                    <td> Task 2</td>
-                   <td><button type="button">Done</button></td>
+                   <td><input type="checkbox"; name="Done">Done</input></td>
                    <td><button type="button">Delete</button></td>
            </tr>
 
