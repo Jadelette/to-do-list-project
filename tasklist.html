@@ -11,6 +11,10 @@
    <!-- <details class="instructions"> <summary>Info</summary> <p>The below table shows all items in your current to do list. <br/> 
          Click 'done' to mark an item as complete and click 'delete' to remove the item from your list without completing it.</p>
         </details>-->
+        <div class="row">
+            <a href="https://jadelette.github.io/html-tutorials/"; style="color:aqua";>Back to Home</a>
+        </div>
+     
     <div class="page-head row">
         <div class="col-sm-12">
             <h1>My Tasks</h1>
@@ -18,14 +22,29 @@
     </div>
 
     <div class="task-head row">
-        <div class="total-tasks col-sm-4">
+        <div class="total-tasks col-sm-6">
            <h4>Total Tasks: </h4>
         </div>
-        <div class="no-of-tasks col-sm-1">
+        <div class="no-of-tasks col-sm-6">
             <h4> 2 </h4>
         </div>
     </div>
-</div>
+
+    <div class="task row">
+        <div class="task-name col-sm-5">
+            Task 1
+        </div>
+        <div class="meter col-sm-3">
+                <meter value="2"; min="0"; max="10";>2 out of 10</meter>
+        </div>
+        <div class="done col-sm-2">
+                <input type="checkbox"; name="Done"; class="done-check">Done</input; >
+        </div>
+        <div class="delete col-sm-1">
+                <button type="button"; class="delete-button">Delete</button>
+        </div>
+    </div>
+</div> <!--end of container-->
     
     
     

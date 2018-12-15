@@ -13,7 +13,7 @@ background:black;
 }
 
 .task-head {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .total-tasks {
@@ -22,4 +22,9 @@ background:black;
 
 .no-of-tasks {
     background-color: aquamarine;
+}
+
+.task {
+    color: aliceblue;
+    margin-top: 5%;
 }
