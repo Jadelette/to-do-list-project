@@ -1,0 +1,25 @@
+
+body {
+    background-color: black; 
+}
+
+.page {
+background:black;
+} 
+
+.page-head {
+    text-align: center;
+    background-color:gray;
+}
+
+.task-head {
+    margin-top: 10%;
+}
+
+.total-tasks {
+    background-color: aquamarine;
+}
+
+.no-of-tasks {
+    background-color: aquamarine;
+}
