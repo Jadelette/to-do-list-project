@@ -1,10 +1,10 @@
 
 body {
-    background-color: black; 
+    background-color: white; 
 }
 
 .page {
-background:black;
+background:white;
 } 
 
 .page-head {
@@ -25,6 +25,14 @@ background:black;
 }
 
 .task {
-    color: aliceblue;
+    color: blue;
     margin-top: 5%;
+    background-color: cadetblue;
+}
+
+.delete-button {
+    background: red;
+    border-radius: 47%;
+    padding-left:1em;
+    padding-right: 1em;
 }
